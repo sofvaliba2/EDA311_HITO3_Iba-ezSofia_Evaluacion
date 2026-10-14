@@ -7,13 +7,13 @@ Proyecto práctico: aplicación CRUD con PHP, MySQL, lista doblemente enlazada y
 - PHP 8.0 o superior.
 - MySQL.
 - Apache .
-- Base de datos `proyecto_estructura`.
+- Base de datos `tienda_ibanez`.
 - Git y GitHub.
 
 ## 2. Estructura
 
 ```text
-EDA311_HITO3_ApellidoNombre/
+EDA311_HITO3_IBAÑEZSOFIA/
 │
 ├── db.php
 ├── estructuras.php
@@ -39,10 +39,10 @@ y utiliza exactamente los campos proporcionados por el docente.
 La conexión se encuentra en `db.php`:
 
 ```php
-$host = 'localhost';
-$dbname = 'tienda_ibañez';
-$user = 'root';
-$pass = '';
+$host = '10.0.40.85';
+$dbname = 'tienda_ibanez';
+$user = 'usu_ibanez_sofia';
+$pass = 'Luz#26D4vN8';
 ```
 
 Si tu instalación utiliza otra contraseña para MySQL, cambia únicamente `$pass`.
@@ -71,10 +71,10 @@ El Bubble Sort NO convierte la lista en un arreglo. Se recorren los nodos y se i
 1. Copiar la carpeta dentro de `htdocs` si utilizas XAMPP.
 2. Iniciar Apache y MySQL.
 3. Crear/importar la base de datos del docente.
-4. Confirmar que la base de datos se llame `proyecto_estructura`.
+4. Confirmar que la base de datos se llame `tienda_ibanez`.
 5. Abrir:
 
-`http://localhost/EDA311_HITO3_ApellidoNombre/`
+`http://localhost/EDA311_HITO3_IBAÑEZSOFIA/`
 
 ## 7. Git
 
@@ -106,7 +106,7 @@ git commit -m "Documenta instalación y funcionamiento"
 
 Después crear el repositorio público con el nombre:
 
-`EDA311_HITO3_ApellidoNombre`
+`EDA311_HITO3_Iba_ezSofia_Evaluacion`
 
 y subir el proyecto.
 
