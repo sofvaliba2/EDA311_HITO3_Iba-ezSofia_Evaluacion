@@ -1,0 +1,13 @@
+# Configuración local
+.env
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
